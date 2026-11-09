@@ -4,7 +4,7 @@ const productDetail = document.querySelector("#product-detail");
 const createBrandHtml = (brand) => {
   return `
     <div class="flex items-center gap-2">
-      <img src="${brand.logo}" alt="" class="size-6 rounded" />
+      <img src="${brand.logo}" alt="" class="h-6" />
       <p class="text-sm text-slate-500">${brand.name}</p>
     </div>
   `;
